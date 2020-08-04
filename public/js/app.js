@@ -1,5 +1,4 @@
 const weatherInfo = document.querySelector(".weather-info");
-
 const weatherFetch = (location = "") => {
   weatherInfo.textContent = "Loading...";
 
