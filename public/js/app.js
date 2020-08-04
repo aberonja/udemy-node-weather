@@ -1,5 +1,3 @@
-console.log("Client side JS file");
-
 const weatherInfo = document.querySelector(".weather-info");
 
 const weatherFetch = (location = "") => {
